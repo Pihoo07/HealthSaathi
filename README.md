@@ -4,39 +4,39 @@ HealthSaathi is an open-source web platform that helps patients identify the mos
 
 📌 Problem Statement
 
-In many tier-2 and tier-3 cities, patients lack centralized and reliable access to information about clinic waiting times, hospital bed availability (including ICU beds), and doctor presence. This often forces individuals to visit multiple healthcare facilities before receiving treatment, leading to unnecessary delays, increased stress, and potential health risks—especially in urgent situations. A transparent and accessible system is needed to consolidate healthcare availability data and support timely decision-making.
+In many tier-2 and tier-3 cities, patients lack centralized and reliable access to information about clinic waiting times, hospital bed availability, and doctor presence. This often forces individuals to visit multiple healthcare facilities before receiving treatment, leading to unnecessary delays, increased stress, and potential health risks—especially in urgent situations. A transparent and accessible system is needed to consolidate healthcare availability data and support timely decision-making.
 
 💡 Solution Overview
 
 HealthSaathi provides a web-based interface where users can input:
 
-Location
+1.Location
 
-Condition severity (Normal / Urgent)
+2.Condition severity (Normal / Urgent)
 
-Preferred doctor (optional)
+3.Preferred doctor (optional)
 
 Based on these inputs, the system evaluates:
 
-Clinic wait times
+1.Clinic wait times
 
-Hospital bed availability
+2.Hospital bed availability
 
-Doctor availability
+3.Doctor availability
 
 It then generates an intelligent and explainable recommendation to guide patients toward the fastest and most appropriate care option.
 
 🚀 Key Features
 
-Clinic wait time monitoring
+1.Clinic wait time monitoring
 
-Hospital bed availability tracking (including ICU)
+2.Hospital bed availability tracking 
 
-Preferred doctor selection and availability check
+3.Preferred doctor selection and availability check
 
-Severity-based recommendation engine
+4.Severity-based recommendation engine
 
-Transparent explanation for each recommendation
+5.Transparent explanation for each recommendation
 
 🏗 Technical Architecture
 
@@ -53,14 +53,28 @@ The recommendation logic uses rule-based filtering to prioritize healthcare faci
 
 🔓 Open Source Commitment
 
-HealthSaathi is fully open-source and licensed under the MIT License.
+1.HealthSaathi is fully open-source and licensed under the MIT License.
 
-Built entirely using open-source technologies
+2.Built entirely using open-source technologies
 
-No dependency on proprietary APIs
+3.No dependency on proprietary APIs
 
-Modular and extensible design
+4.Modular and extensible design
 
-Open to community contributions
+5.Open to community contributions
 
 The goal is to create a scalable and adaptable healthcare availability system that can be customized for local deployment.
+
+🔮 Future Improvements
+
+1.Real-time healthcare data integration
+
+2.Map-based visualization
+
+3.Role-based hospital/admin dashboard
+
+4.Regional scalability and customization
+
+📄 License
+
+This project is licensed under the MIT License.
