@@ -10,39 +10,42 @@ In many tier-2 and tier-3 cities, patients lack centralized and reliable access 
 
 HealthSaathi provides a web-based interface where users can input:
 
-1.Location
+1. Location
 
-2.Condition severity (Normal / Urgent)
+2. Condition severity (Normal / Urgent)
 
-3.Preferred doctor (optional)
+3. Preferred doctor (optional)
 
 Based on these inputs, the system evaluates:
 
-1.Clinic wait times
+1. Clinic wait times
 
-2.Hospital bed availability
+2. Hospital bed availability
 
-3.Doctor availability
+3. Doctor availability
 
 It then generates an intelligent and explainable recommendation to guide patients toward the fastest and most appropriate care option.
 
 🚀 Key Features
 
-1.Clinic wait time monitoring
+1. Clinic wait time monitoring
 
-2.Hospital bed availability tracking 
+2. Hospital bed availability tracking 
 
-3.Preferred doctor selection and availability check
+3. Preferred doctor selection and availability check
 
-4.Severity-based recommendation engine
+4. Severity-based recommendation engine
 
-5.Transparent explanation for each recommendation
+5. Transparent explanation for each recommendation
 
 🏗 Technical Architecture
 
 Frontend: React (Vite) + CSS
+
 Backend: FastAPI
+
 Database: SQLite
+
 API Communication: RESTful APIs
 
 System Flow
@@ -53,27 +56,27 @@ The recommendation logic uses rule-based filtering to prioritize healthcare faci
 
 🔓 Open Source Commitment
 
-1.HealthSaathi is fully open-source and licensed under the MIT License.
+1. HealthSaathi is fully open-source and licensed under the MIT License.
 
-2.Built entirely using open-source technologies
+2. Built entirely using open-source technologies
 
-3.No dependency on proprietary APIs
+3. No dependency on proprietary APIs
 
-4.Modular and extensible design
+4. Modular and extensible design
 
-5.Open to community contributions
+5. Open to community contributions
 
 The goal is to create a scalable and adaptable healthcare availability system that can be customized for local deployment.
 
 🔮 Future Improvements
 
-1.Real-time healthcare data integration
+1. Real-time healthcare data integration
 
-2.Map-based visualization
+2. Map-based visualization
 
-3.Role-based hospital/admin dashboard
+3. Role-based hospital/admin dashboard
 
-4.Regional scalability and customization
+4. Regional scalability and customization
 
 📄 License
 
